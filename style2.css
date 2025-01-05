@@ -1,0 +1,50 @@
+.top-bar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 70px;
+    margin: 0;
+    background-color: rgb(237, 237, 237);
+}
+
+.sub-container{
+    top: 15px;
+    height: 40px;
+    border: none;
+    position: relative;
+    border-radius: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#searchInput{
+    margin: 8px;
+    height: 1.5rem;
+    min-width: 20rem;
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+#searchButton{
+    margin-right: 8px;
+    color: rgb(104, 102, 102);
+    height: 2.3rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #656565;
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    top: 12px;
+}
+i.fa-solid.fa-magnifying-glass{
+    cursor: pointer;
+    
+}
